@@ -1,0 +1,21 @@
+# Caesar Cipher Decryption using Machine Learning
+
+## Project Overview
+This project breaks the Caesar cipher using a simple RNN-based machine learning model. The goal is to predict the shift key by learning character sequences.
+
+## Method
+- Character embedding + RNN (PyTorch)
+- Predict next character in encrypted text sequences
+- Cross-entropy loss for training
+
+## Dataset
+Synthetic texts generated from English phrases, encrypted with random Caesar shifts.
+
+## Results
+- Training loss decreased over 10 epochs
+- Short texts (<10 characters) are more likely to be misclassified (Error Analysis)
+
+## How to run
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
